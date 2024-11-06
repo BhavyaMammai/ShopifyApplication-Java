@@ -40,45 +40,44 @@ II. Admin Features
 - Bootstrap, Javascript and CSS framework is used to enhance styling and create a seamless, user-friendly experience.
 
 # Technology Stack
-Backend: Spring Boot, Spring MVC, Spring Security, JPA
-Frontend: Thymeleaf, Bootstrap
-Database: MySQL
-Payment Integration: Secure payment API integrated at checkout
-Email Notifications: SMTP integration for sending user and admin emails
+- Backend: Spring Boot, Spring MVC, Spring Security, JPA
+- Frontend: Thymeleaf, Bootstrap
+- Database: MySQL
+- Payment Integration: Secure payment API integrated at checkout
+- Email Notifications: SMTP integration for sending user and admin emails
 
 # Setup Instructions
-Clone the repository:
+1.Clone the repository:
 
-bash
-Copy code
-git clone https://github.com/yourusername/shopping-application.git
-Navigate to the project directory and install dependencies:
+- bash
+- Copy code
+- git clone https://github.com/yourusername/shopping-application.git
+2. Navigate to the project directory and install dependencies:
 
-bash
-Copy code
-cd shopping-application
-./mvnw clean install
-Run the application:
+- bash
+- Copy code
+- cd shopping-application
+- ./mvnw clean install
+3. Run the application:
 
-bash
-Copy code
-./mvnw spring-boot:run
-Access the application at http://localhost:8080.
+- bash
+- Copy code
+- ./mvnw spring-boot:run
+4. Access the application at http://localhost:8080.
 
-Configuration
-Email Notification Setup
-Configure email SMTP settings in application.properties to enable email notifications:
+5. Configuration
+- Email Notification Setup
+- Configure email SMTP settings in application.properties to enable email notifications:
 
-properties
-Copy code
-spring.mail.host=smtp.example.com
-spring.mail.port=587
-spring.mail.username=your-email@example.com
-spring.mail.password=your-email-password
-spring.mail.properties.mail.smtp.auth=true
-spring.mail.properties.mail.smtp.starttls.enable=true
-Payment Gateway
-Integrate your preferred payment gateway by configuring the required API keys in the application.properties file.
+6. properties
+- Copy code
+- spring.mail.host=smtp.example.com
+- spring.mail.port=587
+- spring.mail.username=your-email@example.com
+- spring.mail.password=your-email-password
+- spring.mail.properties.mail.smtp.auth=true
+- spring.mail.properties.mail.smtp.starttls.enable=true
+
 
 # Usage
 1. User Journey
