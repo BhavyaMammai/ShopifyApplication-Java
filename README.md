@@ -23,7 +23,9 @@ I. User Features
 6. Notifications
 - Users receive an order confirmation email upon completing a purchase.
 - Real-time notifications for status updates ensure a seamless customer experience.
+- 
 II. Admin Features
+
 1. Order Management Dashboard
 - Admins can view all orders, including pending, completed, and canceled statuses.
 - Order details are displayed in a user-friendly dashboard, enabling efficient management.
@@ -80,19 +82,19 @@ Integrate your preferred payment gateway by configuring the required API keys in
 
 # Usage
 1. User Journey
-Account Creation: Register and log in.
-Browse Products: Explore categories and view individual product details.
-Add to Cart: Select items and adjust quantities.
-Checkout: Complete payment to finalize the purchase.
-Order Confirmation: Receive a confirmation email with order details.
-Order History: View previous purchases.
+- Account Creation: Register and log in.
+- Browse Products: Explore categories and view individual product details.
+- Add to Cart: Select items and adjust quantities.
+- Checkout: Complete payment to finalize the purchase.
+- Order Confirmation: Receive a confirmation email with order details.
+- Order History: View previous purchases.
 2. Admin Journey
-Order Monitoring: Receive an email notification upon order placement.
-Order Management: Use the dashboard to manage and update orders.
-Product Updates: Add or update products in the catalog.
+- Order Monitoring: Receive an email notification upon order placement.
+- Order Management: Use the dashboard to manage and update orders.
+- Product Updates: Add or update products in the catalog.
 # Future Enhancements
-Advanced Product Filtering and Search: Adding filters by price, ratings, etc.
-Customer Reviews: Allow users to review products post-purchase.
-Wishlist Feature: Enable users to save items for later.
-Multi-language Support: Localize the app for a global user base.
-Advanced Analytics: Track sales trends, customer demographics, and top products on an admin dashboard.
+- Advanced Product Filtering and Search: Adding filters by price, ratings, etc.
+- Customer Reviews: Allow users to review products post-purchase.
+- Wishlist Feature: Enable users to save items for later.
+- Multi-language Support: Localize the app for a global user base.
+- Advanced Analytics: Track sales trends, customer demographics, and top products on an admin dashboard.
