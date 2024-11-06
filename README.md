@@ -1,7 +1,7 @@
 # ShopifyApplication
 This Spring Boot shopping application provides a comprehensive e-commerce experience, allowing users to browse products, manage their carts, place orders, and complete secure payments. Admins have access to order management and receive notifications for real-time updates on new orders.
 
-# Features
+## Features
 I. User Features
    
 1. User Registration and Login
@@ -39,14 +39,14 @@ II. Admin Features
 - The interface is built with Thymeleaf templates and is responsive for mobile and desktop views.
 - Bootstrap, Javascript and CSS framework is used to enhance styling and create a seamless, user-friendly experience.
 
-# Technology Stack
+## Technology Stack
 - Backend: Spring Boot, Spring MVC, Spring Security, JPA
 - Frontend: Thymeleaf, Bootstrap
 - Database: MySQL
 - Payment Integration: Secure payment API integrated at checkout
 - Email Notifications: SMTP integration for sending user and admin emails
 
-# Setup Instructions
+## Setup Instructions
 1.Clone the repository:
 
 - bash
@@ -79,7 +79,7 @@ II. Admin Features
 - spring.mail.properties.mail.smtp.starttls.enable=true
 
 
-# Usage
+## Usage
 1. User Journey
 - Account Creation: Register and log in.
 - Browse Products: Explore categories and view individual product details.
@@ -91,7 +91,7 @@ II. Admin Features
 - Order Monitoring: Receive an email notification upon order placement.
 - Order Management: Use the dashboard to manage and update orders.
 - Product Updates: Add or update products in the catalog.
-# Future Enhancements
+## Future Enhancements
 - Advanced Product Filtering and Search: Adding filters by price, ratings, etc.
 - Customer Reviews: Allow users to review products post-purchase.
 - Wishlist Feature: Enable users to save items for later.
