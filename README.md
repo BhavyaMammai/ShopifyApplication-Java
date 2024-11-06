@@ -2,11 +2,12 @@
 This Spring Boot shopping application provides a comprehensive e-commerce experience, allowing users to browse products, manage their carts, place orders, and complete secure payments. Admins have access to order management and receive notifications for real-time updates on new orders.
 
 # Features
-1. User Features
+I. User Features
+   
 1. User Registration and Login
-
 Users can register an account, log in, and securely manage their profile.
 Passwords are encrypted for security, and session management ensures only logged-in users can place orders.
+
 2. Product Catalog with Categories
 
 Products are organized into categories for easy browsing.
@@ -28,7 +29,7 @@ This feature adds convenience and enables users to reorder or track past orders.
 
 Users receive an order confirmation email upon completing a purchase.
 Real-time notifications for status updates ensure a seamless customer experience.
-1. Admin Features
+II. Admin Features
 1. Order Management Dashboard
 
 Admins can view all orders, including pending, completed, and canceled statuses.
