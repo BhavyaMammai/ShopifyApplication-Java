@@ -2,56 +2,58 @@
 This Spring Boot shopping application provides a comprehensive e-commerce experience, allowing users to browse products, manage their carts, place orders, and complete secure payments. Admins have access to order management and receive notifications for real-time updates on new orders.
 
 # Features
-User Features
-User Registration and Login
+1. User Features
+1. User Registration and Login
 
 Users can register an account, log in, and securely manage their profile.
 Passwords are encrypted for security, and session management ensures only logged-in users can place orders.
-Product Catalog with Categories
+2. Product Catalog with Categories
 
 Products are organized into categories for easy browsing.
 Detailed product pages include descriptions, pricing, and options for adding items to the cart.
-Shopping Cart
+3. Shopping Cart
 
 Users can add products to their cart, view the selected items, adjust quantities, and remove items.
 Cart totals update in real-time based on item selections, making it easy to review before checkout.
-Checkout and Payment Integration
+4. Checkout and Payment Integration
 
 Integrated payment system for completing purchases.
 Secure payment gateway ensures that all transactions are handled with encrypted data.
 Upon successful payment, users receive a confirmation message, and the order is saved to their order history.
-Order History
+5. Order History
 
 Users can view their previous purchases with details on items, dates, and transaction status.
 This feature adds convenience and enables users to reorder or track past orders.
-Notifications
+6. Notifications
 
 Users receive an order confirmation email upon completing a purchase.
 Real-time notifications for status updates ensure a seamless customer experience.
-Admin Features
-Order Management Dashboard
+1. Admin Features
+1. Order Management Dashboard
 
 Admins can view all orders, including pending, completed, and canceled statuses.
 Order details are displayed in a user-friendly dashboard, enabling efficient management.
-Email Notifications
+2. Email Notifications
 
 Admins receive real-time email notifications when a new order is placed.
 Notifications include order details and customer information, allowing quick action.
-Product Management
+3. Product Management
 
 Admins can manage product listings, including adding, updating, and deleting items.
 The inventory management system keeps product information organized and up-to-date.
-Responsive and Enhanced UI
+4. Responsive and Enhanced UI
+
 The interface is built with Thymeleaf templates and is responsive for mobile and desktop views.
-Bootstrap (or another CSS framework) may be used to enhance styling and create a seamless, user-friendly experience.
-Technology Stack
+Bootstrap, Javascript and CSS framework is used to enhance styling and create a seamless, user-friendly experience.
+
+# Technology Stack
 Backend: Spring Boot, Spring MVC, Spring Security, JPA
-Frontend: Thymeleaf, Bootstrap (optional for styling)
-Database: H2 (or configurable to other relational databases)
+Frontend: Thymeleaf, Bootstrap
+Database: MySQL
 Payment Integration: Secure payment API integrated at checkout
 Email Notifications: SMTP integration for sending user and admin emails
-Testing: JUnit for unit tests, Mockito for mock tests
-Setup Instructions
+
+# Setup Instructions
 Clone the repository:
 
 bash
@@ -85,19 +87,19 @@ spring.mail.properties.mail.smtp.starttls.enable=true
 Payment Gateway
 Integrate your preferred payment gateway by configuring the required API keys in the application.properties file.
 
-Usage
-User Journey
+# Usage
+1. User Journey
 Account Creation: Register and log in.
 Browse Products: Explore categories and view individual product details.
 Add to Cart: Select items and adjust quantities.
 Checkout: Complete payment to finalize the purchase.
 Order Confirmation: Receive a confirmation email with order details.
 Order History: View previous purchases.
-Admin Journey
+2. Admin Journey
 Order Monitoring: Receive an email notification upon order placement.
 Order Management: Use the dashboard to manage and update orders.
 Product Updates: Add or update products in the catalog.
-Future Enhancements
+# Future Enhancements
 Advanced Product Filtering and Search: Adding filters by price, ratings, etc.
 Customer Reviews: Allow users to review products post-purchase.
 Wishlist Feature: Enable users to save items for later.
